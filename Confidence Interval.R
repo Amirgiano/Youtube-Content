@@ -1,3 +1,12 @@
+
+#Calucation of the Confidence Interval 
+
+#1. Calculate the mean
+#2. Calculate the standard error
+#3. Find the t-score that corresponds to the confidence level
+#4. Calculate the margin of error and 
+#5. construct the confidence interval
+
 y  <- function(x,alpha){
   x.m = mean(x) #For the last step
   
